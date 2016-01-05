@@ -20,6 +20,10 @@
             'msvs_settings': {
               'VCCLCompilerTool': {
                 'RuntimeLibrary': 1, # static debug
+                'DebugInformationFormat': 3, # Generate a PDB
+              },
+              'VCLinkerTool' : {
+                'GenerateDebugInformation': 'true',
               },
             },
           },
